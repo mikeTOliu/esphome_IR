@@ -1,0 +1,155 @@
+{
+  "uuid": "42a17ac74e4b1b13be9993150f2441f5",
+  "path": "Offline/ir",
+  "name": "ir",
+  "content": "",
+  "created_at": "2022-09-03 22:28:25",
+  "updated_at": "2022-10-03 22:29:55",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "6ddcbff14dd2ea5e52dd8f086a8c563e",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9a3ba5d88f5e43dabcbd428be5dcb9d7": 1,
+        "93b52c057820443d85fe2240aa3f4913": 5,
+        "37ceb33e0a712b4a860e33878436a7f0": 2,
+        "770e3b6541bb43e3a1d3f8f3f3164f8a": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 1,
+        "44f48ee67b90498ba7cd0c6ebc8e487b": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000u",
+          1,
+          "CAP-8*14",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f4bea5377eef423fbf79021f24a06a2c",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "IRM-56384",
+          2,
+          "OPTO-TH_IRM-56384",
+          "IR1,IR2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "EVERLIGHT",
+            "BOM_Manufacturer Part": "IRM-56384",
+            "BOM_Supplier Part": "C72048",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "60b43957a9394140aa23cf7274231a5b",
+            "uuid": "37ceb33e0a712b4a860e33878436a7f0"
+          }
+        ],
+        [
+          "s9014",
+          1,
+          "S9014",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "789660201b9c4293ab13e0d9269c99c0",
+            "uuid": "9a3ba5d88f5e43dabcbd428be5dcb9d7"
+          }
+        ],
+        [
+          "TSAL6100",
+          5,
+          "LED-TH_BD5.8-P2.54-FD",
+          "U2,U3,U4,U5,U7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "TSAL6100",
+            "BOM_Supplier Part": "C111836",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3270674de653459681213848d7625a65",
+            "uuid": "93b52c057820443d85fe2240aa3f4913"
+          }
+        ],
+        [
+          "ESP-D1MINI",
+          1,
+          "ESP-D1MINI",
+          "U8",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "7af8f81066e64a758c4302d46bffc951",
+            "uuid": "770e3b6541bb43e3a1d3f8f3f3164f8a"
+          }
+        ],
+        [
+          "TYPEC 6P常规",
+          1,
+          "TYPEC-6P",
+          "USB1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "00a3652eede8419cb2067ec9459c18b1",
+            "uuid": "44f48ee67b90498ba7cd0c6ebc8e487b"
+          }
+        ]
+      ],
+      "updateTime": 1662286407,
+      "createTime": 1662215305,
+      "histories": [],
+      "created_at": "2022-09-03 22:28:25",
+      "updated_at": "2022-09-04 18:13:27"
+    },
+    {
+      "uuid": "48bd92c7c512468dbd4d78e207d6df7b",
+      "puuid": "42a17ac74e4b1b13be9993150f2441f5",
+      "title": "PCB_ir",
+      "filename": "PCB_ir.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "789660201b9c4293ab13e0d9269c99c0": 1,
+        "7af8f81066e64a758c4302d46bffc951": 1,
+        "00a3652eede8419cb2067ec9459c18b1": 1,
+        "f4bea5377eef423fbf79021f24a06a2c": 1,
+        "60b43957a9394140aa23cf7274231a5b": 2,
+        "3270674de653459681213848d7625a65": 5
+      },
+      "BOM": [],
+      "updateTime": 1662253724,
+      "createTime": 1662220057,
+      "histories": [],
+      "created_at": "2022-09-03 23:47:37",
+      "updated_at": "2022-09-04 09:08:44"
+    }
+  ],
+  "sort": [],
+  "title": "ir",
+  "foldername": "ir",
+  "schfilename": "ir.json",
+  "schfilemtime": 1662286407881
+}

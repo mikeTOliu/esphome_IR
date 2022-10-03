@@ -1,0 +1,51 @@
+esphome:
+  name: ir
+
+esp8266:
+  board: nodemcu
+
+# Enable Home Assistant API
+api:
+  services:
+    - service: send_raw_command
+      variables:
+        command: int[]
+      then:
+        - remote_transmitter.transmit_raw:
+            carrier_frequency: 38kHz
+            code: !lambda 'return command;'
+
+ota:
+
+wifi:
+  ssid: "Your wifi ssid"
+  password: "Your wifi password" 
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "ir_Hotspot"
+
+captive_portal:
+
+logger:
+
+remote_receiver:
+  pin:
+    number: D6 #接收
+    inverted: True
+  #dump: nec
+  dump: all
+  
+remote_transmitter:
+  pin: 
+    number: D5 #发射
+  carrier_duty_percent: 50%
+
+
+
+switch:
+  - platform: gpio
+    name: x12_led
+    id: x12_led
+    pin: D4
+    inverted: false
